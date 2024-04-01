@@ -9,7 +9,7 @@ export function isValidSubsequence(array: number[], sequence: number[]) {
         arrayPointer += 1;
       }
     }
-    if (sequencePointer === sequence.length) {
+    if (sequencePointer >= sequence.length) {
       return true;
     } else {
       return false;
